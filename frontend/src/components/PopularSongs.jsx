@@ -17,7 +17,7 @@ function PopularSongs({ setCurrentIndex }) {
             className="bg-zinc-900 rounded-3xl overflow-hidden cursor-pointer"
           >
             <img
-              src={`http://localhost:5000/uploads/images/${song.image}`}
+              src={`https://musice1.onrender.com/uploads/images/${song.image}`}
               className="w-full h-60 object-cover"
             />
 

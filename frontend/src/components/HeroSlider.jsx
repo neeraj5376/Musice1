@@ -58,7 +58,7 @@ const HeroSlider = ({
           className={`absolute rounded-[30px] overflow-hidden cursor-pointer transition-all duration-700 ${getCardClass(index)}`}
         >
           <img
-            src={`http://localhost:5000/uploads/images/${song.image}`}
+            src={`https://musice1.onrender.com/uploads/images/${song.image}`}
             className="w-full h-full object-cover"
           />
 

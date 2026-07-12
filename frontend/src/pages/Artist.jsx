@@ -41,7 +41,7 @@ const Artist = () => {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/songs/upload",
+        "https://musice1.onrender.com/api/songs/upload",
         formData,
         {
           headers: {

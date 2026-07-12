@@ -19,7 +19,7 @@ function PopularSongs({ setCurrentSong }) {
             className="bg-zinc-900 rounded-3xl overflow-hidden"
           >
             <img
-              src={`http://localhost:5000/uploads/images/${song.image}`}
+              src={`https://musice1.onrender.com/uploads/images/${song.image}`}
               alt={song.title}
               className="w-full h-60 object-cover"
             />

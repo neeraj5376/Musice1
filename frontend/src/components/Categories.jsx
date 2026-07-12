@@ -72,7 +72,7 @@ const Categories = ({ songs = [], setCurrentIndex }) => {
               className="bg-[#181c24] rounded-2xl overflow-hidden border border-[#232833] cursor-pointer hover:border-cyan-500 transition-all duration-300"
             >
               <img
-                src={`http://localhost:5000/uploads/images/${song.image}`}
+                src={`https://musice1.onrender.com/uploads/images/${song.image}`}
                 alt={song.title}
                 className="w-full h-[220px] object-cover"
               />
